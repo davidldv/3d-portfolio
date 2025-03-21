@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">I&apos;m David Londoño</p>
               <p className="grid-subtext">
-                With 2 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic and responsive websites.
+                With 2 years of experience, I have honed my skills in frontend development, creating dynamic and responsive websites.
               </p>
             </div>
           </div>
@@ -50,12 +50,10 @@ const About = () => {
               <Globe
                 height={326}
                 width={326}
-                backgroundColor="rgba(0, 0, 0, 0)"
+                backgroundColor='rgba(0, 0, 0, 0)'
                 showAtmosphere
                 showGraticules
-                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                globeImageUrl="//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg"
               />
             </div>
             <div>

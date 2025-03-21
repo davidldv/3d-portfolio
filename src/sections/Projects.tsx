@@ -47,6 +47,7 @@ const Projects = () => {
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
 
             <p className="animatedText">{currentProject.desc}</p>
+            <br />
             <p className="animatedText">{currentProject.subdesc}</p>
           </div>
 
