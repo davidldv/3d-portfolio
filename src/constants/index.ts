@@ -59,9 +59,9 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'StoreIt - Storage Management Platform',
-    desc: 'SotreIt is a real time Google Drive Clone that allows to store data in the cloud.',
+    desc: 'StoreIt is a real time Google Drive Clone that allows to store data in the cloud.',
     subdesc:
-      'Built as a powerful app with Next.js 15, Tailwind CSS, TypeScript.',
+      'Built with Next.js 15, Tailwind CSS, TypeScript.',
     href: 'https://store-it-navy-ten.vercel.app/',
     texture: '/textures/project/project1.mkv',
     logo: '/assets/project-logo1.svg',
