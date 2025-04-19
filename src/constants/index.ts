@@ -90,11 +90,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is an application that empowers users to create photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'University Library - Book Management System',
+    desc: 'From rate-limiting, DDoS protection, caching, optimizations, multi-media uploads, complex db queries, and advanced error handling to automated workflows with custom notifications.',
     subdesc:
-      'Built with Next.js 15, Cloudinary AI, Clerk, and Stripe.',
-    href: '',
+      'Built with Next.js 15, PostgreSQL, Redis, and Auth.js.',
+    href: 'https://github.com/davidldv/university-library',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -118,12 +118,7 @@ export const myProjects = [
         id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      }
     ],
   },
   {
@@ -131,7 +126,7 @@ export const myProjects = [
     desc: 'Subdub is an application that manages real users and subscriptions with authentications, database and API architecture.',
     subdesc:
       'Built with Express.js, Mongo DB.',
-    href: '',
+    href: 'https://github.com/davidldv/subdub',
     texture: '/textures/project/project6.mkv',
     logo: '/assets/project-logo4.png',
     logoStyle: {
